@@ -1,0 +1,59 @@
+.header-btns-wrapper {
+  height: 50px;
+}
+
+.header-btns-wrapper > div {
+  line-height: 50px;
+  text-align: center;
+}
+
+.chart-wrapper {
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.weui-cells {
+  margin-top: 0;
+}
+
+.weui-cell {
+  padding: 0;
+}
+
+.weui-media-box {
+  padding: 12px 15px;
+}
+
+.weui-navbar {
+  box-sizing: border-box;
+  padding: 10px 30px;
+  background-color: #cccccc;
+}
+
+.weui-navbar:after {
+  border-bottom: 0;
+}
+
+.weui-navbar__item {
+  border: 1px solid blue;
+  padding: 6px 0;
+}
+
+.weui-navbar .weui-navbar__item:first-child {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.weui-navbar .weui-navbar__item:last-child {
+  border-bottom-right-radius: 30px;  border-top-right-radius: 30px;
+}
+
+.weui-navbar__item.weui-bar__item--on {
+  color: #fff;
+  background-color: blue;
+  border: 0;
+}
+
+.weui-navbar+.weui-tab__bd {
+  padding-top: 58px
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>jQuery WeUI</title>
+
+  <link rel="stylesheet" href="css/weui.min.css">
+  <link rel="stylesheet" href="css/jquery-weui.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body ontouchstart>
+<header class="header-btns-wrapper">
+  <div class="weui-flex">
+    <div class="weui-flex__item">本周</div>
+    <div class="weui-flex__item">本月</div>
+    <div class="weui-flex__item">本季</div>
+    <div class="weui-flex__item">本年</div>
+    <div class="weui-flex__item">近一年</div>
+    <div class="weui-flex__item">date</div>
+  </div>
+</header>
+
+<div class="chart-wrapper"></div>
+
+<!-- 容器 -->
+<div class="weui-tab">
+  <div class="weui-navbar">
+    <a class="weui-navbar__item weui-bar__item--on" href="#tab1">待处理（8）</a>
+    <a class="weui-navbar__item" href="#tab2">最近收到（20）</a>
+  </div>
+  <div class="weui-tab__bd">
+    <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+      <div class="weui-cells">
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题一标题一标题一标题一标题一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="weui-cell">
+          <div class="weui-cell__bd">
+            <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+              <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">标题标题一标题一标题一标题一标题一一</h4>
+                <p class="weui-media-box__desc">2016-11-11</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="weui-loadmore">
+        <i class="weui-loading"></i>
+        <span class="weui-loadmore__tips">正在加载</span>
+      </div>
+    </div>
+    <div id="tab2" class="weui-tab__bd-item">
+      <h1>页面二</h1>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/fastclick.min.js"></script>
+<script>
+  $(function () {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="js/jquery-weui.min.js"></script>
+<script>
+  $(function () {
+    var loading = false;  //状态标记
+    $(document.body).infinite().on("infinite", function () {
+      console.log('sss');
+
+      if (loading) {
+        return;
+      }
+
+      $('.weui-loadmore').show();
+      loading = true;
+      setTimeout(function () {
+        console.log('sdsdsdsd');
+        $(".weui-cells").append("<p> 我是新加载的内容 </p>");
+        loading = false;
+        $('.weui-loadmore').hide();
+      }, 1500);   //模拟延迟
+    });
+  });
+</script>
+
+</body>
+</html>
