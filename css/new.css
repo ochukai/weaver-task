@@ -1,0 +1,19 @@
+body {
+  background-color: #fbfbfb;
+  font-size: 14px;
+}
+
+.weui-cells {
+  font-size: 14px;
+}
+
+h1 {
+  padding-left: 10px;
+  font-size: 22px;
+  margin: 0;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  padding: 0 20px;
+}
