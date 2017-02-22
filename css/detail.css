@@ -1,0 +1,33 @@
+#task-info {
+
+}
+
+#task-info h3 {
+  font-size: 16px;
+  /*padding: 10px 0;*/
+}
+
+#task-info h3 + div {
+  /*padding: 10px 15px;*/
+  padding: 0;
+  font-size: 14px;
+}
+
+#task-info h3 a {
+  color: #000;
+}
+
+.no-result-hint {
+  color: #888;
+  font-style: italic;
+  padding: 15px 10px;
+}
+
+#task-info h3 + div .weui-cells {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+#task-info .weui-label {
+  color: #888;
+}

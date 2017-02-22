@@ -1,0 +1,30 @@
+h3.oli-collapse-title {
+  margin: 0;
+  background-color: #fafafa
+}
+
+h3.oli-collapse-title a {
+  background: url("../images/Pulldown_wev8.png") 98% 13px no-repeat;
+  display: block;
+  padding: 10px;
+  padding-right: 25px;
+  margin: 0;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+h3.oli-collapse-title:hover {
+  background: #f4f4f4;
+}
+
+h3.oli-collapse-title.open a {
+  background: url("../images/Pullup_wev8.png") 98% 13px no-repeat;
+}
+
+h3.oli-collapse-title + div {
+  padding: 10px;
+}
+
+h3.oli-collapse-title + div {
+  display: none;
+}

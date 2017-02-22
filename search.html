@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>New</title>
+
+  <link rel="stylesheet" href="css/weui.min.css">
+  <link rel="stylesheet" href="css/jquery-weui.css">
+  <link rel="stylesheet" href="css/detail.css">
+</head>
+<body ontouchstart>
+
+  <div class="weui-tab">
+    <div class="weui-tab__bd">
+      <div class="weui-cells weui-cells_form">
+        <div class="weui-cell">
+          <div class="weui-cell__hd"><label class="weui-label">任务名称</label></div>
+          <div class="weui-cell__bd">
+            <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入任务名称">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="weui-tabbar">
+    <a href="javascript:;" class="weui-btn weui-btn_primary">按钮</a>
+    </div>
+  </div>
+
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/fastclick.min.js"></script>
+<script>
+  $(function () {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="js/jquery-weui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

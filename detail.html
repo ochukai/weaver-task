@@ -1,12 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Detail</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>New</title>
+
+  <link rel="stylesheet" href="css/weui.min.css">
+  <link rel="stylesheet" href="css/jquery-weui.css">
+  <link rel="stylesheet" href="css/jquery-collapse.css">
+  <link rel="stylesheet" href="css/detail.css">
 </head>
-<body>
+<body ontouchstart>
 
+<div class="weui-tab">
+    <div class="weui-tab__bd">
+        <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1>
+            <h1>页面一</h1></div>
+        <div id="tab2" class="weui-tab__bd-item">
+            <h1>页面二</h1>
+        </div>
+        <div id="tab3" class="weui-tab__bd-item">
+            <h1>页面三</h1>
+        </div>
+        <div id="tab4" class="weui-tab__bd-item">
+            <h1>页面四</h1>
+        </div>
+    </div>
 
+    <div class="weui-tabbar">
+        <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+            <div class="weui-tabbar__icon">
+                <img src="./images/icon_nav_button.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">微信</p>
+        </a>
+        <a href="#tab2" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="./images/icon_nav_msg.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">通讯录</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="./images/icon_nav_article.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">发现</p>
+        </a>
+        <a href="#tab4" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="./images/icon_nav_cell.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">我</p>
+        </a>
+    </div>
+</div>
+
+<!-- <div class="oli-collapse" id="task-info">
+  <h3 class="oli-collapse-title open">基本信息</h3>
+  <div>
+    <div class="weui-cell">
+      <div class="weui-cell__hd"><label class="weui-label">任务名称</label></div>
+      <div class="weui-cell__bd">
+        <span>不知道名字的</span>
+      </div>
+    </div>
+    <div class="weui-cell">
+      <div class="weui-cell__hd"><label class="weui-label">任务名称</label></div>
+      <div class="weui-cell__bd">
+        <span>不知道名字的不知道名字的不知道名字的不知道名字的不知道名字的不知道名字的不知道名字的不知道名字的</span>
+      </div>
+    </div>
+    <div class="weui-cell">
+      <div class="weui-cell__hd"><label class="weui-label">描述</label></div>
+      <div class="weui-cell__bd">
+        <span>不知道名字的</span>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="oli-collapse-title" aria-expanded="true">下级任务（无）</h3>
+  <div>
+    <p class="no-result-hint">没有下级任务</p>
+  </div>
+
+  <h3 class="oli-collapse-title" aria-expanded="true">下级任务</h3>
+  <div>
+    <div class="weui-cells">
+      <div class="weui-cell weui-cell_access">
+        <div class="weui-cell__bd"><p>标题文字标题文字标题文字标题文字</p></div>
+        <div class="weui-cell__ft">系统管理员</div>
+      </div>
+
+      <div class="weui-cell weui-cell_access">
+        <div class="weui-cell__bd"><p>标题文字</p></div>
+        <div class="weui-cell__ft">小章</div>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="oli-collapse-title ">辅助信息（无）</h3>
+  <div>This is some information</div>
+
+  <h3 class="oli-collapse-title ">相关信息（无）</h3>
+  <div>This is some information</div>
+
+  <h3 class="oli-collapse-title ">相关信息（无）</h3>
+  <div>This is some information</div>
+
+  <h3 class="oli-collapse-title ">相关信息（无）</h3>
+  <div>This is some information</div>
+
+  <h3 class="oli-collapse-title ">相关信息（无）</h3>
+  <div>This is some information</div>
+
+  <h3 class="oli-collapse-title ">相关信息（无）</h3>
+  <div>This is some information</div>
+
+  <h3 class="oli-collapse-title ">相关信息（无）</h3>
+  <div>This is some information</div>
+
+</div> -->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/fastclick.min.js"></script>
+<script>
+  $(function () {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="js/jquery-weui.js"></script>
+<script src="js/jquery.collapse.js"></script>
+<script src="js/main.js"></script>
+<script>
+  $(function () {
+
+    new jQueryCollapse($("#task-info"), {
+      open: function () {
+        this.slideDown(150);
+      },
+      close: function () {
+        this.slideUp(150);
+      }
+    });
+
+  });
+</script>
 
 </body>
 </html>

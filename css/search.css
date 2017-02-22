@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+}
+
+.weui-tab {
+  /*overflow: auto;*/
+}
+
+.weui-cells {
+  margin-top: 0;
+}
+
+.weui-tab__bd {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.btn-serach {
+  padding: 0 20px;
+}
+
+.btn-search-high {
+  position: absolute;
+  right: 0;
+}
+
+.form-advance-search {
+  margin-top: 10px;
+}
+
+.search-input-wrapper > i {
+  position: absolute;
+  width: 20px;
+  line-height: 1.8;
+  left: 10px;
+}
+
+.search-input-wrapper > input {
+  box-sizing: border-box;
+  padding-left: 18px;
+}
